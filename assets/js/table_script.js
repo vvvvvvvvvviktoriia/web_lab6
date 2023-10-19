@@ -1,5 +1,3 @@
-// Додайте цей код до вашого JavaScript-файлу (table_script.js)
-
 $(document).ready(function () {
     var $table = $('#userTable');
     var $deleteButton = $('#deleteRows');
