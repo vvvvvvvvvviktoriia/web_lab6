@@ -60,6 +60,9 @@ function checkName(sender) {
         if (/[A-Z]+/.test(name) || /[a-z]+/.test(name)){
             error += "Не має бути латинських літер<br/>";
         }
+        if (/\d+/.test(name)) {
+            error += "Не має бути цифр<br>";
+        }
         return error;
 
     }
